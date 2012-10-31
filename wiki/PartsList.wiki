@@ -1,4 +1,5 @@
 #summary Parts list for the NRL-SHT1X temperature and relative humidity sensor system
+#labels Phase-Design
 
 = NRL-SHT1X Hardware Parts List =
 
