@@ -1,0 +1,7 @@
+******************
+* NRL-SHT1x TODO *
+******************
+
+- Add LCD Unit display option
+- Add serial command to change LCD temperature unit
+- Add EEPROM storage of LCD temperature unit
