@@ -62,48 +62,8 @@ sensor number is not between 1 and 3.
 = Versions =
 
 Version 1.0.0 is the base implementation of the software that includes communication with all
-three sensors and a computer. This version is designed to work with a printed circuit board
-(PCB) that acts as a shield for a Arduino Uno.
+three sensors and a computer.
  
-Version 2.0.0 is designed to work with a 4-layer printed circuit board (PCB) with the inner
-layers being 5V (VCC) and Ground (GND), repsectively. The top and bottom layers are for
-signals. The PCB is slightly different from v1.0.0 in that it is designed to fit into a
-different box and uses a slightly modified circuit to communicate with remote SHT1x 
-temperature and relative humidity sensors. The modified circuit does not effect the
-operation or execution of the code.
-
-Version 2.1.0 uses integer arrays instead of float arrays for storing the most recent temperatures
-and relative humidities. It also detects if sensors are connected to any of the ports and disables
-reading of the sensor if not connected. It will only scroll the temperature and relative humidity
-for the sensors connected on the LCD screen. This is done because there is apparently a problem
-with reading the temperature and relative humidities of sensors across the RS-232 protocol to a
-computer where it can take up to 2 seconds for the values to be read. This is a problem and should
-happen a lot faster. The baud rate has been increased to 19200. This version also adds the following
-commands:
- 
-C1?    Gets connectivity of Sensor 1, will return 0 if not connected and 1 if connected
-C2?    Gets connectivity of Sensor 1, will return 0 if not connected and 1 if connected
-C3?    Gets connectivity of Sensor 1, will return 0 if not connected and 1 if connected
- 
-Version 2.1.1 fixes an issue with timing that would cause delays in sending data to a computer over
-the RS-232 protocol because the microcontroller was waiting on the sensor to send data back. The
-SHT1x library will have to be re-written to avoid this locking issue in the future and provide
-a more elegant fix, but this version is a quick fix. Each read command requires a maximum of
-320 ms. If all three sensors are reading both measurements, then the total time is 1920 ms. The
-fastest the data can be updated with this version is 2000 ms, or 2 secs. Thus, the computer should
-only pull for readings via the serial port every two seconds.
- 
-Version 3.0.0 restructures the source code to use the Eclipse IDE with the AVR plugin instead
-of the Arduino IDE. The Eclipse IDE is more feature-rich and flexible. Additionally, the code
-has been updated to use the printed circuit board v2.2 with the MAX232 chip instead of the
-MAX233, which was causing communication problems. The communication protocol between
-the sensor hub and the sensors has also been changed so waiting for the sensor to response
-does not lock the microcontroller. The sensor hub now actively checks connectivity, not just
-at startup. The LCD will display "NC" if the sensor is not connected and "NaN" for "Not a
-Number" if the readings from a sensor are meaningless or out of range for the sensor. The LCD
-has been updated to display the temperature (in Celcius) and relative humidtiy for all three
-sensors simultaneously.
-
 The serial commands have also been updated for v3.0.0 to the following:
 
 TC1?		Gets the temperature from Sensor 1 in Celcius
@@ -118,4 +78,8 @@ RH3?		Gets the relative humidity from Sensor 3 in percent
 
 The connectivity commands from Version 2.1.0 have been removed since the hub now actively checks
 for connectivity all the time. If a command is not recognized, the hub will return "ERROR 01".
-If the sensor number (1-3) is out of bounds, it will return "ERROR 02". 
+If the sensor number (1-3) is out of bounds, it will return "ERROR 02".
+
+Version 1.0.1 fixes a bug with displaying relative humidity less than 10%. The decimal place
+would not align properly and the "N" would not clear if the relative humidity was less than
+10%. 
