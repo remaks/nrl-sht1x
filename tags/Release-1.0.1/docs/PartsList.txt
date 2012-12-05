@@ -1,0 +1,83 @@
+************************
+* NRL-SHT1x Parts List *
+************************
+
+=== T-RH Sensor Insert PCB Components ===
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Description		      	 					Qty 	Part Number		Manufacturer			Order Number		Supplier |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+470 Ohm SMD Resistor							2	ERJ-12ZYJ471U		Panasonic - ECG			P470WCT-ND		Digi-Key
+4.7K Ohm SMD Resistor							2	ERJ-12ZYJ472U		Panasonic - ECG			P4.7KWCT-ND		Digi-Key
+100nF SMD Capacitor							1	GRM155F51C104ZA01D	Murata Electronics		490-1327-1-ND		Digi-Key
+Temperature and Relative Humidity Sensor				1	SHT15			Sensirion			18M2986			Newark Electronics
+IC I2C Bus Extender 8-SOIC						1	P82B715TD,112		NXP Semiconductors		568-3981-5-ND		Digi-Key
+36-position header pins							1	68001-436HLF		FCI				609-2224-ND		Digi-Key
+
+=== T-RH Sensor Hub PCB Components ===
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Description		      	 					Qty 	Part Number		Manufacturer			Order Number		Supplier |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+Microcontroller								1	ATmega328P		Atmel				DEV-10524		Sparkfun
+RS232-to-TTL chip							1	MAX233CPP		Maxim				MAX233CPP+G36-ND	Digi-Key
+IC I2C Bus Extender 8-DIP						3	P82B715TD,112		NXP Semiconductors		568-1006-5-ND		Digi-Key
+9V to 5V voltage regulator						1	LM2940-5.0		National Semiconductor		LM2940IMP-5.0CT-ND	Digi-Key
+470 Ohm Through hole Resistor						6	CFR-25JB-470R		Yageo				470QBK-ND		Digi-Key
+4.7K Ohm Through hole Resistor						6	CFR-25JB-4K7		Yageo				4.7KQBK-ND		Digi-Key
+2.2K Ohm Through hole Resistor						1	MFR-25FBF-2K10		Yageo				2.10KXBK-ND		Digi-Key
+220 Ohm Through hole Resistor						1	CFR-25JB-220R		Yageo				220QBK-ND		Digi-Key
+10K Ohm Through hole Resistor						1	CFR-25JB-10K		Yageo				10KQBK-ND		Digi-Key
+16 MHz Oscillator							1	ECS-160-20-4X		ECS Inc				X1103-ND		Digi-Key
+20 pF Through hole Capacitor						2	RPE5C2A200J2P1Z03B	Murata Electronics		490-3637-ND		Digi-Key
+22 uF Capacitor								2	T350D226K006AT		Kemet				399-3561-ND		Digi-Key
+0.47 uF Capacitor							2	T350B474K050AT		Kemet				399-3552-ND		Digi-Key
+LED SMD-1206								1	CMDA1CG7A1Z		Chicago Miniature Lighting	L71504CT-ND		Digi-Key
+Yellow LED SMD-1206							2	CMD15-21VYD/TR8		Chicago Miniature Lighting	L62307CT-ND		Digi-Key
+8-pin DIP Socket							3	1-390261-2		TE Connectivity			A100204-ND		Digi-Key
+20-pin DIP Socket							1	2-641612-1		TE Connectivity			A24810-ND		Digi-Key
+28-pin DIP Socket							1	1-390261-9		TE Connectivity			A100210-ND		Digi-Key
+36-position header pins							1	68001-436HLF		FCI				609-2224-ND		Digi-Key
+Connection header 4-position with friction lock 0.100'' spacing		3	22-27-2041		Molex Connector Corporation	WM4113-ND		Digi-Key
+Connection header 3-position with friction lock 0.100'' spacing		1	22-27-2031		Molex Connector Corporation	WM4112-ND		Digi-Key
+Connection header 2-position with friction lock 0.100'' spacing		1	22-27-2021		Molex Connector Corporation	WM4111-ND		Digi-Key
+
+=== T-RH Sensor Hub Project Box Components ===
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Description		      	 					Qty 	Part Number		Manufacturer			Order Number		Supplier |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+White on Black LCD Display						1	GDM1602K		Xiamen Ocular			LCD-00709		Sparkfun
+DB9 Female connector							1	171-009-203L001		Norcomp Inc.			209FE-ND		Digi-Key
+On-Off Toggle Switch SPDT						1	M2011SS1W01/UC		NKK Switches			M2011SS1W01/UC-ND	Digi-Key
+9V power supply								1	EPS090066-P5P		CUI Inc				T980-P5P-ND		Digi-Key
+Power supply connector							1	PJ-005A			CUI Inc				CP-5-ND			Digi-Key
+4-Pin mini-DIN jack							3	MD-40			CUI Inc				CP-2040-ND		Digi-Key
+4-Pin mini-DIN connector						3	MD-40CV			CUI Inc				CP-2840-ND		Digi-Key
+Connection housing 3-position with locking ramp				1	09-50-3031		Molex Connector Corporation	WM2101-ND		Digi-Key
+Connection housing 4-position with locking ramp				1	09-50-3041		Molex Connector Corporation	WM2102-ND		Digi-Key
+Connection terminal female 18-24 AWG Tin				4	08-52-0072		Molex Connector Corporation	WM2302-ND		Digi-Key
+Connection housing 4-position with locking ramp 0.100'' spacing		3	22-01-3047		Molex Connector Corporation	WM2002-ND		Digi-Key
+Connection housing 3-position with locking ramp 0.100'' spacing		1	22-01-3037		Molex Connector Corporation	WM2001-ND		Digi-Key
+Connection housing 2-position with locking ramp 0.100'' spacing		1	22-01-3027		Molex Connector Corporation	WM2000-ND		Digi-Key
+Connection terminal female 22-30 AWG Tin				17	08-50-0114		Molex Connector Corporation	WM1114-ND		Digi-Key
+Plastic project box							1	1598BSGY		Hammond Manufacturing		HM246-ND		Digi-Key
+Black 22 AWG 7 stranded hook up wire					100 ft	3051 BK005		Alpha Wire			A2016B-100-ND		Digi-Key
+Red 22 AWG 7 stranded hook up wire					100 ft	3051 RD005		Alpha Wire			A2016R-100-ND		Digi-Key
+Orange 22 AWG 7 stranded hook up wire					100 ft	3051 OR005		Alpha Wire			A2016A-100-ND		Digi-Key
+Yellow 22 AWG 7 stranded hook up wire					100 ft	3051 YL005		Alpha Wire			A2016Y-100-ND		Digi-Key
+Purple 22 AWG 7 stranded hook up wire					100 ft	3051 VI005		Alpha Wire			A2016V-100-ND		Digi-Key
+Blue 22 AWG 7 stranded hook up wire					100 ft	3051 BL005		Alpha Wire			A2016L-100-ND		Digi-Key
+
+Note: A 100 ft of the hook up wire is not needed, but this is typically the smallest quantity available from supplies.
+
+=== T-RH Sensor Hub Project Box Hardware ===
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Description		      	 					Qty 	Part Number		Manufacturer			Order Number		Supplier |
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+Screw lock kit for D-sub panel mount					2	20418-0002		ITT Cannon, LLC			1003-1036-ND		Digi-Key
+M2x16 machine screw							4	92005A037		McMaster-Carr			92005A037		McMaster-Carr
+#6 self tapping hex washer head						4	90286A144		McMaster-Carr			90286A144		McMaster-Carr
+M2 nut									4	90591A111		McMaster-Carr			90591A111		McMaster-Carr
+M2 washer								8	91166A180		McMaster-Carr			91166A180		McMaster-Carr
