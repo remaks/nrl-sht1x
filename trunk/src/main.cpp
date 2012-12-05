@@ -365,7 +365,7 @@ void setup() {
 	// NRL = Naval Research Laboratory.
 	lcd.print("T-RH Sensor Hub");
 	lcd.setCursor(0, 1);
-	lcd.print("NRL v1.0.0");
+	lcd.print("NRL v1.0.1");
 
 	// Allow time for the user to read the LCD information. This
 	// also allows the sensors to end sleep mode after power up,
