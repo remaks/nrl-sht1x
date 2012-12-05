@@ -301,6 +301,13 @@ void lcdPrintHumidity(int _sensor) {
 		} else if ( displayHumidity < MIN_HUMIDITY ) {
 			lcd.print(" MIN");
 		} else {
+
+			// If the humidity is less than 10%, add a space in front of the number
+			// to keep the decimal points aligned on the LCD.
+			if ( displayHumidity < 10.0 ) {
+				lcd.print(" ");
+			}
+
 			lcd.print(displayHumidity, lcdPrecision);
 		}
 
