@@ -14,6 +14,7 @@ The order number and supplier are only recommendations. Most parts can be purcha
 || *Description* || *Qty* || *Part Number* || *Manufacturer* || *Order Number* || *Supplier* ||
 || Arduino Microcontroller || 1	|| ATmega328P || Atmel || [https://www.sparkfun.com/products/10524 DEV-10524] || [http://www.sparkfun.com Sparkfun] ||
 || RS-232 to TTL IC || 1 || MAX232CPE+ || Maxim || [http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=MAX232CPE%2B-ND&x=0&y=0&cur=USD MAX232CPE+-ND] || [http://www.digikey.com Digi-Key] ||
+|| IC I2C Bus Extender 8-DIP || 3 || P82B715TD,112 || NXP Semiconductors || [http://www.digikey.com/product-search/en?x=0&y=0&lang=en&site=us&KeyWords=568-1006-5-ND 568-1006-5-ND] || [http://www.digikey.com Digi-Key] ||
 || 9V to 5V voltage regulator || 1 || LM2940-5.0 || National Semiconductor || [http://www.digikey.com/product-detail/en/LM2940IMP-5.0%2FNOPB/LM2940IMP-5.0TR-ND/270714 LM2940IMP-5.0CT-ND] || [http://www.digikey.com Digi-Key] ||
 || 10K Ohm Through Hole Trim Pot || 1 || 3296W-1-103LF || Bourns Inc. || [http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=3296W-103LF-ND&x=0&y=0&cur=USD 3296W-103LF-ND] || [http://www.digikey.com Digi-Key] ||
 || 1 uF Through Hole Capacitor || 5 || C330C105K5R5TA || Kemet || [http://www.digikey.com/scripts/DkSearch/dksus.dll?WT.z_header=search_go&lang=en&keywords=399-4389-ND&x=0&y=0&cur=USD 399-4389-ND] || [http://www.digikey.com Digi-Key] ||
