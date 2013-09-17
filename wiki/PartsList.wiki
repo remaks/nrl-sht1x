@@ -77,6 +77,6 @@ Note: A 100 ft of the hook up wire is not needed, but this is typically the smal
 || 470 Ohm SMD Resistor || 2 || ERJ-12ZYJ471U || Panasonic - ECG || P470WCT-ND || Digi-Key ||
 || 4.7K Ohm SMD Resistor || 2 || ERJ-12ZYJ472U || Panasonic - ECG || P4.7KWCT-ND || Digi-Key ||
 || 100nF SMD Capacitor || 1 || GRM155F51C104ZA01D || Murata Electronics || 490-1327-1-ND || Digi-Key ||
-|| Temperature and Relative Humidity Sensor || 1 || SHT15 Sensirion || 18M2986 || Newark Electronics ||
+|| Temperature and Relative Humidity Sensor || 1 || SHT15 || Sensirion || 18M2986 || Newark Electronics ||
 || IC I2C Bus Extender 8-SOIC || 1 || P82B715TD,112 || NXP Semiconductors || 568-3981-5-ND || Digi-Key ||
 || 36-position header pins || 1 || 68001-436HLF || FCI || 609-2224-ND || Digi-Key ||
