@@ -1,0 +1,13 @@
+# Temperature and Relative Humidity Sensor System #
+
+An interface and read out for the [Sensirion](http://www.sensirion.com/en/home/) [SHT15](http://www.sensirion.com/en/products/humidity-temperature/humidity-sensor-sht15/) temperature and relative humidity sensor has been designed and implemented using an embedded microcontroller and I<sup>2</sup>C bus extenders. The microcontroller communicates simultaneously with up to three SHT15 sensors and displays the readings on a LCD or relays to a computer using the RS-232 serial communication protocol.
+
+The SHT15 temperature and relative humidity sensor is capable of reading temperature and relative humidity and communicating with a microcontroller using a I<sup>2</sup>C-compatible communication protocol. The I<sup>2</sup>C bus is limited to a communication distance of 10 cm. A printed circuit board (PCB) has been designed using a pair of I<sup>2</sup>C bus [extenders](http://www.nxp.com/documents/data_sheet/P82B715.pdf) to extend the communication distance to 1000 cm. The hardware consists of a Sensor Hub PCB and a Sensor PCB. The Sensor Hub PCB uses the Atmega368P-PU microcontroller which is the same integrated circuit (IC) used in the [Arduino Uno](http://www.arduino.cc). The Arduino Uno was originally used as a rapid prototyping tool for the project. A custom PCB for the project was then designed and fabricated as a bare-bones circuit with the same microcontroller used in the Arduino Uno. Various Sensor PCBs have been designed and fabricated using the same sensor-specific circuit but with different geometries for various applications. The design files, EAGLE schematic (.sch) and board (.brb) files are available as part of the project, along with a complete parts list.
+
+Software has been written using the [Eclipse](http://www.eclipse.org/) Integrated Development Environment (IDE) instead of the [Arduino](http://www.arduino.cc) IDE. While the Arduino IDE is freely available and easy-to-use for beginners, the Eclipse IDE has many desirable features (syntax highlighting, line numbers, code folding, version control integration, etc.) for more advanced users that making software development easier. The Arduino Core library is used to build the project and the source code can be copied directly into the Arduino IDE if needed.
+
+## Disclaimer ##
+
+This project is NOT officially endorsed or supported by the Naval Research Laboratory (NRL) or the Department of Defense (DoD).
+
+All parts, websites, and companies are mentioned only for reference and as examples. The mention of these parts, websites, and companies is in no way an endorsement or advertisement. This project does not receive funds from any commercial entity.
